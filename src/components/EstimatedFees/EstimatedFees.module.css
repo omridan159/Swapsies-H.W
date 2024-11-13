@@ -1,0 +1,60 @@
+.feesContainer {
+  margin-top: 32px;
+  padding: 32px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.feesContainer:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.feesTitle {
+  margin-bottom: 16px;
+  color: #2c3e50;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.feesList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feeItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.3s ease;
+}
+
+.feeItem:last-child {
+  border-bottom: none;
+}
+
+.feeItem:hover {
+  background-color: #f1f1f1;
+}
+
+.feeLabel {
+  font-weight: 600;
+  color: #34495e;
+  font-size: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.feeValue {
+  font-weight: 700;
+  color: #27ae60;
+  font-size: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

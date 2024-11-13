@@ -1,0 +1,60 @@
+.formContainer {
+  max-width: 600px;
+  min-width: 600px;
+  margin: 48px auto;
+  padding: 32px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .formContainer {
+    padding: 24px;
+    margin: 16px auto;
+  }
+}
+
+.formTitle {
+  text-align: center;
+  margin-bottom: 32px;
+  color: #333;
+}
+
+.addressLabel {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.addressInput {
+  width: 100%;
+  padding: 12px 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  transition: border-color 0.3s;
+}
+
+.addressInput:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+.errorMessage {
+  color: #dc3545;
+  font-size: 14px;
+  margin-bottom: 16px;
+  display: block;
+  text-align: center;
+}
+
+.successMessage {
+  color: #28a745;
+  font-size: 14px;
+  margin-bottom: 16px;
+  display: block;
+  text-align: center;
+}

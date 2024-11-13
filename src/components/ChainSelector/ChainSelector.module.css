@@ -1,0 +1,45 @@
+.selectorContainer {
+  margin-bottom: 16px;
+}
+
+.label {
+  margin-bottom: 4px;
+  display: block;
+  font-weight: 600;
+}
+
+.selectWrapper {
+  position: relative;
+}
+
+.select {
+  width: 100%;
+  padding: 12px;
+  padding-right: 24px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  appearance: none;
+  background-color: #f8f9fa;
+  transition: border-color 0.3s;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7"><path fill="%236c757d" d="M0 0l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 10px 7px;
+}
+
+.selectError {
+  border-color: #dc3545;
+}
+
+.select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+.errorMessage {
+  color: #dc3545;
+  font-size: 14px;
+  margin-top: 2px;
+  display: block;
+}

@@ -1,0 +1,41 @@
+/* AmountInput.module.css */
+
+.inputContainer {
+  margin-bottom: 16px; /* Replaced theme.spacing(3) with 16px */
+}
+
+.label {
+  margin-bottom: 4px; /* Replaced theme.spacing(1) with 4px */
+  display: block;
+  font-weight: 600;
+}
+
+.inputWrapper {
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  padding: 12px; /* Replaced theme.spacing(1.5) with 12px */
+  padding-right: 16px; /* Replaced theme.spacing(4) with 16px */
+  border: 1px solid #ccc; /* Replaced theme.colors.muted with #ccc */
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+.inputError {
+  border-color: #dc3545; /* Replaced theme.colors.error with #dc3545 */
+}
+
+.input:focus {
+  border-color: #007bff; /* Replaced theme.colors.primary with #007bff */
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+.errorMessage {
+  color: #dc3545; /* Replaced theme.colors.error with #dc3545 */
+  font-size: 14px; /* 0.875rem */
+  margin-top: 2px; /* Replaced theme.spacing(0.5) with 2px */
+  display: block;
+}
